@@ -14,8 +14,8 @@ test('Flatlist 렌더링 최적화 전,후 비교', async () => {
   };
 
   // 기본 리스트 , 0 버전 대에서는 measurePerformance 사용
-  //   await measureRenders(<DefaultItemList />, {scenario, runs: 20});
+  await measureRenders(<DefaultItemList />, {scenario, runs: 20});
 
   // 성능 최적화 한 리스트
-  await measureRenders(<OptimizationList />, {scenario});
+  //   await measureRenders(<OptimizationList />, {scenario});
 });
