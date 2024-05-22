@@ -3,7 +3,6 @@ import {test} from '@jest/globals';
 import {fireEvent, screen} from '@testing-library/react-native';
 import {measureRenders} from 'reassure';
 import DefaultItemList from './defaultList';
-import OptimizationList from './optimizationList';
 
 test('Flatlist 렌더링 최적화 전,후 비교', async () => {
   // 비교할 시나리오 작성
@@ -14,5 +13,5 @@ test('Flatlist 렌더링 최적화 전,후 비교', async () => {
   };
 
   // 기본 리스트 , 0 버전 대에서는 measurePerformance 사용
-  await measureRenders(<DefaultItemList />, {scenario, runs: 20});
+  await measureRenders(<DefaultItemList />, {scenario});
 });
