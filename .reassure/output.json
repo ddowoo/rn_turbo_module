@@ -2,45 +2,66 @@
   "metadata": {
     "current": {
       "branch": "main",
-      "commitHash": "631950d8d4339441973745ce4bfa0be14d95d968",
-      "creationDate": "2024-05-22T10:01:47.554Z"
+      "commitHash": "d768c5e9ffc7817301adcc734dbb3ada658765ad",
+      "creationDate": "2024-05-22T10:46:42.319Z"
     },
     "baseline": {
       "branch": "main",
-      "commitHash": "2ca21b8f425b12f574d08c5eaeb48a119659d781",
-      "creationDate": "2024-05-22T09:42:04.728Z"
+      "commitHash": "d768c5e9ffc7817301adcc734dbb3ada658765ad",
+      "creationDate": "2024-05-22T10:45:30.938Z"
     }
   },
   "errors": [],
   "warnings": [],
-  "significant": [
+  "significant": [],
+  "meaningless": [
     {
       "name": "Flatlist 렌더링 최적화 전,후 비교",
       "type": "render",
       "baseline": {
         "name": "Flatlist 렌더링 최적화 전,후 비교",
         "type": "render",
-        "runs": 10,
-        "meanDuration": 23.8,
-        "stdevDuration": 8.978987817244336,
+        "runs": 20,
+        "meanDuration": 33.6,
+        "stdevDuration": 23.161674332714746,
         "durations": [
-          16,
-          21,
-          20,
+          24,
           23,
-          16,
-          19,
-          17,
+          21,
+          27,
+          34,
           43,
-          35,
-          28
+          24,
+          25,
+          24,
+          21,
+          23,
+          122,
+          56,
+          51,
+          36,
+          24,
+          23,
+          21,
+          21,
+          29
         ],
         "warmupDurations": [
-          115
+          136
         ],
         "meanCount": 2,
         "stdevCount": 0,
         "counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
           2,
           2,
           2,
@@ -56,33 +77,23 @@
       "current": {
         "name": "Flatlist 렌더링 최적화 전,후 비교",
         "type": "render",
-        "runs": 20,
-        "meanDuration": 29.4,
-        "stdevDuration": 7.436750846834574,
+        "runs": 10,
+        "meanDuration": 18.8,
+        "stdevDuration": 2.6161889160464775,
         "durations": [
-          27,
-          23,
-          26,
-          31,
-          39,
-          30,
-          24,
-          24,
-          29,
+          15,
+          17,
+          19,
           21,
-          31,
-          29,
-          25,
-          23,
-          33,
-          27,
-          26,
-          32,
-          33,
-          55
+          20,
+          18,
+          16,
+          18,
+          20,
+          24
         ],
         "warmupDurations": [
-          166
+          132
         ],
         "meanCount": 2,
         "stdevCount": 0,
@@ -96,27 +107,16 @@
           2,
           2,
           2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
           2
         ]
       },
-      "durationDiff": 5.599999999999998,
-      "relativeDurationDiff": 0.23529411764705874,
-      "isDurationDiffSignificant": true,
+      "durationDiff": -14.8,
+      "relativeDurationDiff": -0.44047619047619047,
+      "isDurationDiffSignificant": false,
       "countDiff": 0,
       "relativeCountDiff": 0
     }
   ],
-  "meaningless": [],
   "countChanged": [],
   "added": [],
   "removed": []

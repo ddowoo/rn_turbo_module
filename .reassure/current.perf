@@ -1,2 +1,2 @@
-{"metadata":{"creationDate":"2024-05-22T10:01:47.554Z","branch":"main","commitHash":"631950d8d4339441973745ce4bfa0be14d95d968"}}
-{"name":"Flatlist 렌더링 최적화 전,후 비교","type":"render","runs":20,"meanDuration":29.4,"stdevDuration":7.436750846834574,"durations":[27,23,26,31,39,30,24,24,29,21,31,29,25,23,33,27,26,32,33,55],"warmupDurations":[166],"meanCount":2,"stdevCount":0,"counts":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]}
+{"metadata":{"creationDate":"2024-05-22T10:46:42.319Z","branch":"main","commitHash":"d768c5e9ffc7817301adcc734dbb3ada658765ad"}}
+{"name":"Flatlist 렌더링 최적화 전,후 비교","type":"render","runs":10,"meanDuration":18.8,"stdevDuration":2.6161889160464775,"durations":[15,17,19,21,20,18,16,18,20,24],"warmupDurations":[132],"meanCount":2,"stdevCount":0,"counts":[2,2,2,2,2,2,2,2,2,2]}
