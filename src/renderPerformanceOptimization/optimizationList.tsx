@@ -33,7 +33,7 @@ const OptimizationList = () => {
     ({item, index}: {item: Item; index: number}) => (
       <Item item={item} index={index} onPressItem={changeItemStatus} />
     ),
-    [],
+    [changeItemStatus],
   );
 
   return (

@@ -2,8 +2,8 @@
   "metadata": {
     "current": {
       "branch": "main",
-      "commitHash": "2ca21b8f425b12f574d08c5eaeb48a119659d781",
-      "creationDate": "2024-05-22T09:42:29.807Z"
+      "commitHash": "631950d8d4339441973745ce4bfa0be14d95d968",
+      "creationDate": "2024-05-22T10:01:47.554Z"
     },
     "baseline": {
       "branch": "main",
@@ -57,32 +57,32 @@
         "name": "Flatlist 렌더링 최적화 전,후 비교",
         "type": "render",
         "runs": 20,
-        "meanDuration": 32.8,
-        "stdevDuration": 8.55693009388174,
+        "meanDuration": 29.4,
+        "stdevDuration": 7.436750846834574,
         "durations": [
-          37,
-          29,
-          42,
-          30,
-          36,
           27,
-          33,
+          23,
           26,
-          28,
+          31,
+          39,
+          30,
           24,
-          36,
-          22,
-          46,
-          26,
-          22,
+          24,
+          29,
           21,
-          37,
-          49,
-          44,
-          41
+          31,
+          29,
+          25,
+          23,
+          33,
+          27,
+          26,
+          32,
+          33,
+          55
         ],
         "warmupDurations": [
-          241
+          166
         ],
         "meanCount": 2,
         "stdevCount": 0,
@@ -109,8 +109,8 @@
           2
         ]
       },
-      "durationDiff": 8.999999999999996,
-      "relativeDurationDiff": 0.3781512605042015,
+      "durationDiff": 5.599999999999998,
+      "relativeDurationDiff": 0.23529411764705874,
       "isDurationDiffSignificant": true,
       "countDiff": 0,
       "relativeCountDiff": 0
