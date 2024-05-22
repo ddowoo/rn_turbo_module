@@ -13,6 +13,7 @@ yarn reassure --baseline
 
 # Gather current perf measurements & compare results
 git checkout "$BASELINE_BRANCH"
+git checkout "$BASELINE_BRANCH"
 
 yarn install --force
 yarn reassure --branch
