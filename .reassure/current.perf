@@ -1,0 +1,2 @@
+{"metadata":{"creationDate":"2024-05-22T09:42:29.807Z","branch":"main","commitHash":"2ca21b8f425b12f574d08c5eaeb48a119659d781"}}
+{"name":"Flatlist 렌더링 최적화 전,후 비교","type":"render","runs":20,"meanDuration":32.8,"stdevDuration":8.55693009388174,"durations":[37,29,42,30,36,27,33,26,28,24,36,22,46,26,22,21,37,49,44,41],"warmupDurations":[241],"meanCount":2,"stdevCount":0,"counts":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]}
