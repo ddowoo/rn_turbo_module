@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "test:perf": "yarn run reassure"
+    "perf-test": "yarn run reassure"
   },
   "dependencies": {
     "immer": "^10.1.1",
