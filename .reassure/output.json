@@ -1,14 +1,14 @@
 {
   "metadata": {
     "current": {
-      "branch": "main",
-      "commitHash": "34ed3c20c0da95e1586b653dd5e70b70fb43e561",
-      "creationDate": "2024-05-22T10:51:14.924Z"
+      "branch": "opti",
+      "commitHash": "6e088d1d7d",
+      "creationDate": "2024-05-22T13:21:09.112Z"
     },
     "baseline": {
       "branch": "main",
-      "commitHash": "d768c5e9ffc7817301adcc734dbb3ada658765ad",
-      "creationDate": "2024-05-22T10:45:30.938Z"
+      "commitHash": "566303fb44bc7c09315e8b89139be7809bfe21b5",
+      "creationDate": "2024-05-22T13:16:38.402Z"
     }
   },
   "errors": [],
@@ -21,47 +21,27 @@
       "baseline": {
         "name": "Flatlist 렌더링 최적화 전,후 비교",
         "type": "render",
-        "runs": 20,
-        "meanDuration": 33.6,
-        "stdevDuration": 23.161674332714746,
+        "runs": 10,
+        "meanDuration": 32.1,
+        "stdevDuration": 7.1094616142464995,
         "durations": [
           24,
-          23,
-          21,
+          29,
+          42,
+          40,
+          44,
           27,
-          34,
-          43,
-          24,
-          25,
-          24,
-          21,
-          23,
-          122,
-          56,
-          51,
-          36,
-          24,
-          23,
-          21,
-          21,
-          29
+          30,
+          30,
+          27,
+          28
         ],
         "warmupDurations": [
-          136
+          204
         ],
         "meanCount": 2,
         "stdevCount": 0,
         "counts": [
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
           2,
           2,
           2,
@@ -78,22 +58,22 @@
         "name": "Flatlist 렌더링 최적화 전,후 비교",
         "type": "render",
         "runs": 10,
-        "meanDuration": 34.5,
-        "stdevDuration": 15.522385269166735,
+        "meanDuration": 27.5,
+        "stdevDuration": 5.948856099191582,
         "durations": [
-          42,
-          27,
-          25,
-          27,
           28,
+          20,
+          39,
+          36,
+          29,
+          23,
+          24,
+          23,
           27,
-          27,
-          26,
-          75,
-          41
+          26
         ],
         "warmupDurations": [
-          194
+          111
         ],
         "meanCount": 2,
         "stdevCount": 0,
@@ -110,8 +90,8 @@
           2
         ]
       },
-      "durationDiff": 0.8999999999999986,
-      "relativeDurationDiff": 0.026785714285714243,
+      "durationDiff": -4.600000000000001,
+      "relativeDurationDiff": -0.1433021806853583,
       "isDurationDiffSignificant": false,
       "countDiff": 0,
       "relativeCountDiff": 0
